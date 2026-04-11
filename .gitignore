@@ -1,0 +1,14 @@
+# Áudios de teste
+*.mp3
+*.wav
+*.ogg
+
+# Configurações e testes locais
+dados.json
+teste.py
+boot_config.py
+main.py
+
+# Ambientes virtuais
+venv/
+.env
