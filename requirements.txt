@@ -1,0 +1,5 @@
+keyboard==0.13.5
+psutil==7.2.2
+PyAudio==0.2.14
+pynput==1.8.1
+
