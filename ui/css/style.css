@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: left;
+    align-items: center ;
+
+    height: 80px;
+
+    background-color: #737373;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 32px;
+    padding: 0px 32px;
+}
+
+.sound-card{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    padding: 0px 32px;
+
+    border: 1px solid black;
+    border-bottom: 0px;
+
+    background-color: #C8C4C4;
+
+    height: 60px;
+}
+
+.sound-card:hover{
+    background-color: #6E6E6E;
+}
+
+.sound-description{
+    flex-grow: 1;
+}
+
+.sound-name{
+    font-size: 24px;
+}
+
+.sound-time{
+    font-size: 12px;
+}
+
+.buttons{
+    cursor: pointer;
+}
